@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Streamlit secrets (if added later)
+.streamlit/secrets.toml
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Large unused data archives
+data/*.zip
+data/open-meteo*
+data/open_meteo*
+data/3b01bcb8*
